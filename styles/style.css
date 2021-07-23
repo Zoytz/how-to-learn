@@ -39,49 +39,38 @@ div {
   position: absolute;
   top: 30px;
   left:64px;
+  z-index: 2;
 }
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
-}
-
-.header__text {
+  margin: 0 0 0 64px;
+  z-index: 2;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
   color: #000;
-
 }
 
-.subtitle {
+.header__subtitle {
   width: 388px;
   position: absolute;
   bottom: 30px;
   left: 64px;
-}
-
-.subtitle__text {
+  z-index: 2;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   display: inline-block;
   color: #000;
+  margin: 0;
 }
 
 .header__link {
   color: #2f80ed;
 }
 
-.main-illustration {
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.main-illustration__image {
+.header__main-illustration {
   width: 765px;
   height: 608px;
   position: absolute;
