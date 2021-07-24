@@ -238,6 +238,7 @@ div {
   font-weight: normal;
   color: #2f80ed;
   position: absolute;
-  top: 51%;
+  top: 50%;
   right: 48px;
+  transform: translateY(25%);
 }
