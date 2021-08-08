@@ -9,24 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-@keyframes rotation {
-  0% {
-    transform: rotate(0);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.page_rotation {
-  animation: rotation 20s infinite linear;
-}
-
 .page_link {
   transition: opacity .1s linear .1s;
 }
