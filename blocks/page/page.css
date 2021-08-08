@@ -8,11 +8,3 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-.page_link {
-  transition: opacity .1s linear .1s;
-}
-
-.page_link:hover {
-  opacity: 0.7;
-}
